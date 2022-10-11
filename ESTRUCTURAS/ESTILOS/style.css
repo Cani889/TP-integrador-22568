@@ -1,0 +1,222 @@
+body {
+   font-family: 'Caveat';
+   font-size: 28px;
+    }
+
+ 
+ .principal {
+   position:relative;
+ }
+
+   .bg-image {
+      opacity: 0.4;
+      size: 100vw;
+      margin: 0;
+      
+    }
+    
+    .bg-img-title {
+      font-family: 'Permanent Marker';
+      font-size: 84px;
+      color:rgb(127, 73, 163);
+      position: absolute;
+      justify-content:center;
+      top: 100px;
+      left: 330px;
+    }
+
+ .nav-enlace {
+    display:inline-block;
+    background-color: lightblue;
+    color:black;
+    padding: 10px 95px;
+    transition: 0.4s;
+ } 
+ .nav-enlace:hover{
+    background-color:cadetblue;
+    transition: 0.4s;
+ }
+
+ nav{ 
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(209, 171, 209) ;
+    padding: 10px;
+    cursor: pointer;
+ }
+ @media (max-width: 710px) {
+ nav{
+    flex-direction: column;
+  }
+  .nav-enlace{
+    margin: 10px 0;} 
+ }
+ a{
+    text-decoration: none;
+}
+@media (max-width: 710px) {
+   .principal{
+      flex-direction:column-reverse;
+   }
+   .bg-image {
+      opacity: 0.3;
+
+    }
+      .bg-img-title {
+         font-size: 60px;
+         top: 120px;
+      left: 130px;
+   }    
+}
+.bienvenido{
+   margin-top: 20px;
+   text-align: center;
+}
+.bienvenido h2 {
+   color:rgb(17, 187, 187);
+   font-weight: bold;
+   display:flex;
+   justify-content: space-evenly;
+   background-color:rgb(238, 211, 247) ;
+   transition: 0.4s;
+   padding: 10px;
+}
+.bienvenido h2:hover{
+   background-color:rgb(235, 247, 225);
+    transition: 0.4s;
+
+}
+.novedades {
+   color:rgb(240, 195, 255);
+   font-weight: bold;
+   display:flex;
+   justify-content: space-evenly;
+   background-color:rgb(17, 187, 187) ;
+   transition: 0.4s;
+   padding: 1px;
+}
+.novedades:hover {
+   background-color:rgb(142, 108, 153);
+    transition: 0.4s;
+}
+.contenedor-columnas{
+   width: 100%;
+   margin: auto;
+   margin-bottom: 50px;
+}
+   
+.columnasx3{
+   width: 33.333%;
+   float:left;
+   padding: 20px 20px;
+   box-sizing: border-box;
+   margin:auto;
+}
+.kenshin1{ 
+      width:128px ;
+      height:192px;
+   }
+.spy-family{ 
+   width:128px ;
+   height:192px;
+   }
+.para-kiss{
+   width:128px ;
+   height:192px;
+      }
+h2{
+   font-size: 48px;
+   font-weight: normal;
+}
+h3{
+   font-size: 36px;
+   font-weight: normal;
+}
+h4{ 
+   color:rgb(115, 82, 126);
+   margin-top: 10px;
+   font-size: 36px; 
+   font-weight: bold;
+}
+h5{
+   color:rgb(114, 94, 119);
+   line-height: 1;
+   font-size: 30px;
+   font-weight: normal;
+}
+p{
+   color:rgb(120, 117, 121);
+   line-height: 1;
+   font-size: 27 px;
+   font-weight: normal;
+}
+.banner-1{
+   width: 100%;
+   background-color:cadetblue;
+   clear: both; 
+   padding: 1px;
+   text-align: center;
+   transition: 0.4s;
+}
+.banner-1 :hover{
+   background-color:rgb(209, 171, 209);
+   transition: 0.4s;
+}
+.banner-1 a {
+   color:rgb(73, 2, 67);
+   margin-left: 20px;
+   font-weight: bold;
+}
+form{
+   width: 350px;
+   margin: auto;
+   background-color: rgba(143, 188, 143, 0.3);
+   padding: 10px 20px;
+   box-sizing: border-box;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+input, textarea {
+   width: 100%;
+   margin-bottom: 20px;
+   padding: 7px;
+   box-sizing: border-box;
+   font-family: 'Caveat';
+   font-size: 27px;
+   border: none;
+}
+textarea {
+   font-family: 'Caveat';
+   font-size: 27px;
+   min-height: 100px;
+   max-height: 200px;
+   max-width: 100%;
+}
+#boton {
+   font-family: 'Caveat';
+   font-size: 27px;
+   background-color:rgb(17, 146, 146) ;
+   color:azure;
+   padding: 20px;
+   transition: 0.4s;
+}
+#boton:hover{
+   cursor: pointer;
+   background-color:rgb(13, 71, 71) ;
+   transition: 0.4s;
+}
+@media (max-width:480px) {
+   form{
+      width: 100%;
+   }
+}
+.copy{
+   color:rgb(17, 187, 187);
+   font-size: 20px;
+   font-weight:normal;
+   display:flex;
+   justify-content: space-evenly;
+   background-color: rgb(87, 73, 92) ;
+   transition: 0.4s;
+   padding: 30px;
+}
